@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #CF9893;
+}
+
+.head{
+    height: 4rem;
+    background-color: #3B3B58;
+    color: #A96DA3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1{
+    background-color: inherit;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.choice {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    background-color: #3B3B58;
+}
+
+.choice img:hover{
+    opacity: 0.5;
+}
+
+.score-card {
+    display: flex;
+    gap: 5rem;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.score{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.msg{
+    background-color: #3B3B58;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #CF9893;
+}
